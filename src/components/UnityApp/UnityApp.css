@@ -1,0 +1,31 @@
+.unity-app {
+  /* position: relative; */
+  margin: auto;
+  width: 960px;
+  height: 720px;
+  /* color: rgb(150, 150, 150); */
+  padding: 1px;
+  margin-bottom: 1rem;
+  letter-spacing: 0.5px;
+  line-height: 1.5rem;
+  background-color: rgb(214, 214, 214);
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.unity-app > .unity {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+}
+
+.unity-app > .loading-overlay {
+  /* position: absolute; */
+  /* top: 0;
+  left: 0; */
+  width: 100%;
+  height: 100%;
+  background: rgb(214, 214, 214);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}

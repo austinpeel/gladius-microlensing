@@ -1,23 +1,22 @@
-import logo from './logo.svg';
 import './App.css';
+import Header from './components/Header/Header';
+import Footer from './components/Footer/Footer';
+import UnityApp from './components/UnityApp/UnityApp';
+
+const appData = {
+  loaderUrl: 'UnityApp/Build/UnityApp.loader.js',
+  dataUrl: 'UnityApp/Build/UnityApp.data',
+  frameworkUrl: 'UnityApp/Build/UnityApp.framework.js',
+  codeUrl: 'UnityApp/Build/UnityApp.wasm',
+  description: 'Microlensing...',
+};
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='container'>
+      <Header />
+      <UnityApp {...appData} />
+      <Footer />
     </div>
   );
 }

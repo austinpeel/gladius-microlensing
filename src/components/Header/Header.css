@@ -1,0 +1,33 @@
+.header {
+  /* position: sticky;
+  top: 0; */
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  justify-content: space-between; /* along main axis */
+  align-items: center; /* cross-axis */
+  height: 80px;
+  margin: auto;
+  /* color: white; */
+  /* background-color: peachpuff; */
+}
+
+#header-logo {
+  display: block;
+  width: 100px;
+  margin-left: 10px;
+  padding: 10px;
+  /* border: 5px solid rgb(89, 0, 255); */
+  /* background-color: white; */
+}
+
+#language-select {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 15px;
+  border-width: 0px;
+  padding: 5px;
+  margin-right: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  /* background-color: cornflowerblue; */
+}
