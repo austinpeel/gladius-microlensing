@@ -1,15 +1,16 @@
 {
   "files": {
-    "main.css": "/gladius-microlensing/static/css/main.606ecd39.css",
-    "main.js": "/gladius-microlensing/static/js/main.05e8ccac.js",
+    "main.css": "/gladius-microlensing/static/css/main.98c016db.css",
+    "main.js": "/gladius-microlensing/static/js/main.9b1c3b94.js",
     "static/js/787.25cdfab0.chunk.js": "/gladius-microlensing/static/js/787.25cdfab0.chunk.js",
+    "static/media/flag.jpg": "/gladius-microlensing/static/media/flag.f0c4bb279d3838f43c99.jpg",
     "index.html": "/gladius-microlensing/index.html",
-    "main.606ecd39.css.map": "/gladius-microlensing/static/css/main.606ecd39.css.map",
-    "main.05e8ccac.js.map": "/gladius-microlensing/static/js/main.05e8ccac.js.map",
+    "main.98c016db.css.map": "/gladius-microlensing/static/css/main.98c016db.css.map",
+    "main.9b1c3b94.js.map": "/gladius-microlensing/static/js/main.9b1c3b94.js.map",
     "787.25cdfab0.chunk.js.map": "/gladius-microlensing/static/js/787.25cdfab0.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.606ecd39.css",
-    "static/js/main.05e8ccac.js"
+    "static/css/main.98c016db.css",
+    "static/js/main.9b1c3b94.js"
   ]
 }
