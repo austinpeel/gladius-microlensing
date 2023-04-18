@@ -1,0 +1,17 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b3c77b58183d44851bf8eabda4414a2f, type: 3}
+  m_Name: LensParameters
+  m_EditorClassIdentifier: 
+  strength: 0
+  microlensingMaterial: {fileID: 2100000, guid: 2be342bb46f5447f2963f6d887e194f3, type: 2}
+  lensesAreEditable: 1
