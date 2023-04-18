@@ -19,8 +19,11 @@
 
 # Testing
 /[Aa]ssets/[Tt]est/
+/[Aa]ssets/[Tt]est.meta
 /[Aa]ssets/[Tt]esting/
+/[Aa]ssets/[Tt]esting.meta
 /[Aa]ssets/[Ss]cratch/
+/[Aa]ssets/[Ss]cratch.meta
 
 # Recordings can get excessive in size
 /[Rr]ecordings/
